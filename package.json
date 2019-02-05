@@ -1,0 +1,32 @@
+{
+  "name": "mernapp",
+  "version": "1.0.0",
+  "description": "Traversy Media MERN-stack tutorial",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piulianvalentin/MERNTraversy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piulianvalentin/MERNTraversy/issues"
+  },
+  "homepage": "https://github.com/piulianvalentin/MERNTraversy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
